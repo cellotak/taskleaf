@@ -23,6 +23,7 @@ default: &default
 
 development:
   <<: *default
+  template: template0
   database: taskleaf_development
 
   # The specified database role being used to connect to postgres.
