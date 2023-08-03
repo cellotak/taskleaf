@@ -72,6 +72,6 @@ group :test do
 end
 
 gem 'slim-rails'
-gem 'html2slim'
+gem 'html2slim', github: 'slim-template/html2slim'
 
 gem 'bootstrap'
