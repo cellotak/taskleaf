@@ -16,6 +16,7 @@ class TasksController < ApplicationController
     task = Task.new(task_params)
     task.save!
     flash[:notice] = "タスク「#{task.name}」を登録しました"
+    flash.keep(:notice)
     redirect_to tasks_url 
   end
 
